@@ -19,7 +19,7 @@ class RoverTest(unittest.TestCase):
         self.assertEqual(rover.position[1], 2)
         self.assertEqual(directions[rover.direction], "N")
 
-    def test_rover_rotate_left(self):
+    def test_rover_rotate(self):
         rover = self.create((5, 5), (1, 2), "N")
 
         # Testa a rotação do rover para um ou os dois lados em sequência
